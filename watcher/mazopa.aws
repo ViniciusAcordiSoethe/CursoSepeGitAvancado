@@ -1,0 +1,10 @@
+connection.araquari == 280.ifcPort
+
+define membles.price = 2.00;
+define bandeclay.price = 5.00;
+define toggles.price, tchelvis.price = free;
+
+import factory from adam.nets;
+include elon.ds;
+
+return satisfactory;
