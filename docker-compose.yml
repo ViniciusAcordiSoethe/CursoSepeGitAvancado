@@ -1,0 +1,26 @@
+php:
+  build: .docker/php
+  container_name: php_container
+  volumes:
+  #tem que rodar comandos de Certutil e mkcert para gerar os certificados
+    - .docker/apache/server.pem:/etc/ssl/certs/server.pem
+    - .docker/apache/server-key.pem:/etc/ssl/private/server-key.pem
+  #tem que rodar comandos de Certutil e mkcert para gerar os certificados
+    - .docker/apache/000-default.conf:/etc/apache2/sites-available/000-default.conf
+    - ./:/var/www/html
+  ports:
+    - "80:80"
+    - "443:443"
+  restart: always
+  links:
+    - mysql
+
+mysql:
+  image: mysql:latest
+  container_name: mysql_container
+  volumes:
+    - /var/lib/mysql
+  ports:
+    - "3306:3306"
+  environment:
+    - MYSQL_ROOT_PASSWORD=root
