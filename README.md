@@ -1,5 +1,7 @@
 # <img aling="center" alt="git-git" height="50" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" /> CursoSepeGit 
 
+FEITO PARA SIMULAR O PRIMEIRO CONTATO DE UM ESTAGIARIO OU JUNIOR AO CODIGO LEGADO DE UMA EMPRESA
+
 * Minicurso Git ministrado na SEPE
 * Preparação Basica para o Mercado de trabalho
 
