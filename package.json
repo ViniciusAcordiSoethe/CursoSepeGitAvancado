@@ -1,0 +1,24 @@
+{
+  "name": "cursosepegitavancado",
+  "version": "1.0.0",
+  "description": "FEITO PARA SIMULAR O PRIMEIRO CONTATO DE UM ESTAGIARIO OU JUNIOR AO CODIGO LEGADO DE UMA EMPRESA",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViniciusAcordiSoethe/CursoSepeGitAvancado.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViniciusAcordiSoethe/CursoSepeGitAvancado/issues"
+  },
+  "homepage": "https://github.com/ViniciusAcordiSoethe/CursoSepeGitAvancado#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

@@ -6,7 +6,7 @@ __construct(churras) {
     braza = ct;
 }
 
-if(played == dark) {
+if( Souls == dark) {
     recognize.this(you)
 } else {
     dont;
