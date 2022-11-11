@@ -1,0 +1,22 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model user_history {
+  user_history_id Int @id @default(autoincrement())
+  user user? @relation(fields: [user_history_id_user], references: [user_id])
+  user_history_id_user Int?
+  project project? @relation(fields: [user_history_id_project], references: [project_id])
+  user_history_id_project Int?
+  user_history_initial_data DateTime?
+  user_history_final_date DateTime?
+  user_history_type user_history_type? @relation(fields: [user_history_type_id], references: [user_history_type_id])
+  user_history_type_id Int?
+  user_history_desc String?
+  user_project_history user_project_history[]
+}
