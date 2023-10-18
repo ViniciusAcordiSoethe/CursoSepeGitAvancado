@@ -4,7 +4,7 @@ body {
     align-items: center;
     animation: gradient 40s ease infinite;
     background-size: 300% 300%;
-    background-color: white;
+    background-color: rgb(212, 0, 255);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -16,12 +16,12 @@ h1 {
 .events {
     width: 80%;
     background-color: #5E17EB;
-    border-radius: 15px;
+    border-radius: 0px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 .event {
